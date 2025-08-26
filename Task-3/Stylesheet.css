@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
@@ -13,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
 header {
   background-color: #005a9c;
   color: white;
@@ -26,7 +23,6 @@ header {
   letter-spacing: 1px;
 }
 
-/* Navigation Bar */
 nav.navigation {
   background-color: #333;
   display: flex;
@@ -48,7 +44,6 @@ nav img:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
-/* Main Layout (Section + Aside) */
 main {
   display: flex;
   flex-direction: row;
@@ -56,10 +51,9 @@ main {
   align-items: flex-start;
   padding: 30px;
   gap: 30px;
-  flex-wrap: nowrap; /* keep side-by-side */
+  flex-wrap: nowrap;
 }
 
-/* Section (Left Content) */
 section.main-content {
   flex: 2;
   min-width: 300px;
@@ -80,7 +74,6 @@ section.main-content p {
   font-size: 1rem;
 }
 
-/* Aside (Right Sidebar) */
 aside.school-info,
 aside.university-info {
   flex: 1;
@@ -111,7 +104,6 @@ aside p {
   font-size: 0.95rem;
 }
 
-/* Footer */
 footer.site-footer {
   background-color: #333;
   color: #fff;
@@ -130,10 +122,9 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 900px) {
   main {
-    flex-direction: column; /* stack section and aside */
+    flex-direction: column; 
   }
 
   section.main-content,
