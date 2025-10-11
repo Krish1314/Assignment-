@@ -1,0 +1,7 @@
+# .gitignore
+*.DS_Store
+.idea/
+node_modules/
+*.log
+*.xml
+WebApplication2/
